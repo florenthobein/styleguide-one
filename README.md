@@ -4,7 +4,7 @@ Styleguide One
 
 ⚡️ **WORK IN PROGRESS** ⚡️ 
 
-Configure your main variables in `tailwind.js`, modify the css files in `src/` and generate your unified css library.
+Configure your main variables in `tailwind.js`, modify the css files in `css/` and generate your unified css library.
 
 ## Usage
 
@@ -35,7 +35,7 @@ gulp styleguide
 
 ### Developpment mode
 
-Any modification to a file in `src/` or to the `tailwind.js` config file will regenerate your css library and update the styleguide.
+Any modification to a file in `css/` or to the `tailwind.js` config file will regenerate your css library and update the styleguide.
 ```shell
 gulp watch
 ```

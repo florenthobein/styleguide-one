@@ -21,10 +21,7 @@ body {
  * @section
  * @sectionof Typography
  * @example
- * <div class="layout--document">
- * 	<h3>Headers use the font config('fonts.headings[0]')</h3>
- * 	<p>Whereas the rest of the body use the font config('fonts.body[0]')</p>
- * </div>
+ * ../fixtures/typography-fonts.html
  * @hideCode
  */
 
@@ -72,7 +69,7 @@ h5, .h--5 {
  * @example
  * <div class="layout--document">
  * 	<p>In computer programming, a placeholder is a <strong>character, word, or string</strong> of characters that may be used to take up space until such a time that the <em>space is needed</em>.</p>
- * 	<div class="p">For example, <small>a programmer may know that she needs</small> a certain number of values or variables, but doesn't yet know what to input. She can use a placeholder as a temporary solution until a proper value or variable can be assigned.</div>
+ * 	<div class="p">For example, <small>a programmer may know that she needs</small> a certain number of values or variables, but doesn't yet know what to input. She can use a placeholder <a href>as a temporary solution</a> until a proper value or variable can be assigned.</div>
  * </div>
  * @code
  * <p>In computer programming, a placeholder is...</p>
@@ -85,11 +82,13 @@ a, .a {
   transition: 200ms;
 	color: inherit;
 	text-decoration: none;
-	@apply .u-border-b-2 .u-border-transparent;
+	/*@apply .u-border-b-2 .u-border-transparent;*/
+	@apply .u-border-b-2;
 }
 a:focus, .a:focus,
 a:hover, .a:hover {
-	border-color: inherit;
+	/*border-color: inherit;*/
+	@apply .u-border-transparent;
 }
 
 /**

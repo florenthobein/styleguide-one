@@ -9,6 +9,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
     "gulp-livereload": "^3.8.1",
     "gulp-livingcss": "^2.2.0",
     "gulp-postcss": "^7.0.0",

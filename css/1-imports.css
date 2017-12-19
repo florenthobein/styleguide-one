@@ -1,5 +1,5 @@
 /**
- * General
+ * Global
  *
  * @section
  */
@@ -17,20 +17,31 @@
  * *Note: it is possible for components to solely exist in a variegated form.*
  *
  * @section
- * @sectionof General
+ * @sectionof Global
  */
 
 /**
  * Responsive
  *
  * Mobile first approach: the smaller breakpoints impact the bigger sizes
- * - **sm**: config('screens.sm')
- * - **md**: config('screens.md')
- * - **lg**: config('screens.lg')
- * - **xl**: config('screens.xl')
  *
  * @section
- * @sectionof General
+ * @sectionof Global
+ * @example
+ * ../fixtures/global-responsive.html
+ * @hideCode
+ */
+
+/**
+ * Spacing
+ *
+ * All the UI elements are defined without any pre-established spacing.
+ * It should be defined on a case by case scenario using the utilities, or
+ * by creating specific layout classes, like **layout--document**, that have
+ * an wide effect on its whole content.
+ *
+ * @section
+ * @sectionof Global
  */
 
 @tailwind preflight;
