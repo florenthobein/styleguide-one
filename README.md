@@ -8,7 +8,7 @@ Configure your main variables in `tailwind.js`, modify the css files in `css/` a
 
 ## Example
 
-See `[an example of the styleguide output](https://florenthobein.github.io/styleguide-one/).
+See [an example of styleguide output](https://florenthobein.github.io/styleguide-one/).
 
 ## Usage
 

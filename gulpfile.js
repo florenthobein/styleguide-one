@@ -6,6 +6,9 @@ gulp.task('css', function () {
 	var postcss = require('gulp-postcss');
 	var tailwindcss = require('tailwindcss');
 	var replace = require('gulp-replace');
+	// copy assets
+	gulp.src('fonts/**/*').pipe(gulp.dest('docs/fonts/'));
+	// tailwind processing
 	return gulp.src('css/**/*.css')
 		.pipe(concat('lib.css'))
 		.pipe(postcss([
