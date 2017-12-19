@@ -170,7 +170,6 @@
 	@apply .u-rounded-full .u-text-center;
 	@apply .u-w-12 .u-h-12;
 	@apply .u-p-0;
-	/*line-height: 3rem;*/
 }
 .btn--icon:hover,
 .btn--icon:focus,

@@ -22,8 +22,8 @@ body {
  * @sectionof Typography
  * @example
  * <div class="layout--document">
- *  <h3>Headers use the font config('fonts.headings[0]')</h3>
- *  <p>Whereas the rest of the body use the font config('fonts.body[0]')</p>
+ * 	<h3>Headers use the font config('fonts.headings[0]')</h3>
+ * 	<p>Whereas the rest of the body use the font config('fonts.body[0]')</p>
  * </div>
  * @hideCode
  */

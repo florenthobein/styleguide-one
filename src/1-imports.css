@@ -38,12 +38,12 @@
 @tailwind utilities;
 
 ::root {
-  /*--color-palette-g-1: config('colors.palette-g-1');
-  --color-palette-g-2: config('colors.palette-g-2');
-  --color-palette-g-3: config('colors.palette-g-3');
-  --color-palette-g-4: config('colors.palette-g-4');
-  --color-palette-g-5: config('colors.palette-g-5');
-  --color-palette-g-6: config('colors.palette-g-6');
+	/*--color-palette-g-1: config('colors.palette-g-1');
+	--color-palette-g-2: config('colors.palette-g-2');
+	--color-palette-g-3: config('colors.palette-g-3');
+	--color-palette-g-4: config('colors.palette-g-4');
+	--color-palette-g-5: config('colors.palette-g-5');
+	--color-palette-g-6: config('colors.palette-g-6');
 	--color-palette-g-7: config('colors.palette-g-7');
 	--color-palette1: config('colors.palette1');
 	--color-palette1-1: config('colors.palette1-1');
@@ -51,12 +51,12 @@
 	--color-palette2: config('colors.palette2');
 	--color-palette2-1: config('colors.palette2-1');
 	--color-palette2-2: config('colors.palette2-2');
-  --color-palette3: config('colors.palette3');
-  --color-palette3-1: config('colors.palette3-1');
-  --color-palette3-2: config('colors.palette3-2');
-  --color-palette4: config('colors.palette4');
-  --color-palette4-1: config('colors.palette4-1');
-  --color-palette4-2: config('colors.palette4-2');
+	--color-palette3: config('colors.palette3');
+	--color-palette3-1: config('colors.palette3-1');
+	--color-palette3-2: config('colors.palette3-2');
+	--color-palette4: config('colors.palette4');
+	--color-palette4-1: config('colors.palette4-1');
+	--color-palette4-2: config('colors.palette4-2');
 	--color-palette5: config('colors.palette5');
 	--color-palette5-1: config('colors.palette5-1');
 	--color-palette5-2: config('colors.palette5-2');

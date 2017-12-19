@@ -13,21 +13,21 @@
  * @sectionof Colors
  * @example
  * <div class="layout--grid u-clear">
- *  <div class="u-w-1/5 u-py-2 u-text-center u-bg-palette1 u-text-white"><strong>Palette1</strong><br /><small>config('colors.palette1')</small></div>
- *  <div class="u-w-1/5 u-py-2 u-text-center u-bg-palette2 u-text-white"><strong>Palette2</strong><br /><small>config('colors.palette2')</small></div>
- *  <div class="u-w-1/5 u-py-2 u-text-center u-bg-palette3 u-text-white"><strong>Palette3</strong><br /><small>config('colors.palette3')</small></div>
- *  <div class="u-w-1/5 u-py-2 u-text-center u-bg-palette4 u-text-white"><strong>Palette4</strong><br /><small>config('colors.palette4')</small></div>
- *  <div class="u-w-1/5 u-py-2 u-text-center u-bg-palette5 u-text-white"><strong>Palette5</strong><br /><small>config('colors.palette5')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette1-1 u-text-white u-text-xs"><strong>Palette1-1</strong><br /><small>config('colors.palette1-1')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette1-2 u-text-white u-text-xs"><strong>Palette1-2</strong><br /><small>config('colors.palette1-2')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette2-1 u-text-white u-text-xs"><strong>Palette2-1</strong><br /><small>config('colors.palette2-1')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette2-2 u-text-white u-text-xs"><strong>Palette2-2</strong><br /><small>config('colors.palette2-2')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette3-1 u-text-white u-text-xs"><strong>Palette3-1</strong><br /><small>config('colors.palette3-1')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette3-2 u-text-white u-text-xs"><strong>Palette3-2</strong><br /><small>config('colors.palette3-2')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette4-1 u-text-white u-text-xs"><strong>Palette4-1</strong><br /><small>config('colors.palette4-1')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette4-2 u-text-white u-text-xs"><strong>Palette4-2</strong><br /><small>config('colors.palette4-2')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette5-1 u-text-white u-text-xs"><strong>Palette5-1</strong><br /><small>config('colors.palette5-1')</small></div>
- *  <div class="u-w-1/10 u-py-2 u-text-center u-bg-palette5-2 u-text-white u-text-xs"><strong>Palette5-2</strong><br /><small>config('colors.palette5-2')</small></div>
+ * 	<div class="u-w-1/5 u-py-2 u-text-center u-bg-palette1 u-text-white"><strong>Palette1</strong><br /><small>config('colors.palette1')</small></div>
+ * 	<div class="u-w-1/5 u-py-2 u-text-center u-bg-palette2 u-text-white"><strong>Palette2</strong><br /><small>config('colors.palette2')</small></div>
+ * 	<div class="u-w-1/5 u-py-2 u-text-center u-bg-palette3 u-text-white"><strong>Palette3</strong><br /><small>config('colors.palette3')</small></div>
+ * 	<div class="u-w-1/5 u-py-2 u-text-center u-bg-palette4 u-text-white"><strong>Palette4</strong><br /><small>config('colors.palette4')</small></div>
+ * 	<div class="u-w-1/5 u-py-2 u-text-center u-bg-palette5 u-text-white"><strong>Palette5</strong><br /><small>config('colors.palette5')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette1-1 u-text-white u-text-xs"><strong>Palette1-1</strong><br /><small>config('colors.palette1-1')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette1-2 u-text-white u-text-xs"><strong>Palette1-2</strong><br /><small>config('colors.palette1-2')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette2-1 u-text-white u-text-xs"><strong>Palette2-1</strong><br /><small>config('colors.palette2-1')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette2-2 u-text-white u-text-xs"><strong>Palette2-2</strong><br /><small>config('colors.palette2-2')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette3-1 u-text-white u-text-xs"><strong>Palette3-1</strong><br /><small>config('colors.palette3-1')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette3-2 u-text-white u-text-xs"><strong>Palette3-2</strong><br /><small>config('colors.palette3-2')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette4-1 u-text-white u-text-xs"><strong>Palette4-1</strong><br /><small>config('colors.palette4-1')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette4-2 u-text-white u-text-xs"><strong>Palette4-2</strong><br /><small>config('colors.palette4-2')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette5-1 u-text-white u-text-xs"><strong>Palette5-1</strong><br /><small>config('colors.palette5-1')</small></div>
+ * 	<div class="u-w-1/10 u-py-2 u-text-center u-bg-palette5-2 u-text-white u-text-xs"><strong>Palette5-2</strong><br /><small>config('colors.palette5-2')</small></div>
  * </div>
  * @hideCode
  */
@@ -44,7 +44,7 @@
  * 	<div class="u-w-1/5 u-px-4 u-py-2 u-text-center u-bg-palette-g-3"><strong>Palette-g-3</strong><br /><small>config('colors.palette-g-3')</small></div>
  * 	<div class="u-w-1/5 u-px-4 u-py-2 u-text-center u-bg-palette-g-4"><strong>Palette-g-4</strong><br /><small>config('colors.palette-g-4')</small></div>
  * 	<div class="u-w-1/5 u-px-4 u-py-2 u-text-center u-bg-palette-g-5 u-text-white"><strong>Palette-g-5</strong><br /><small>config('colors.palette-g-5')</small></div>
- *  <div class="u-w-1/5 u-px-4 u-py-2 u-text-center u-bg-palette-g-6 u-text-white"><strong>Palette-g-6</strong><br /><small>config('colors.palette-g-6')</small></div>
+ * 	<div class="u-w-1/5 u-px-4 u-py-2 u-text-center u-bg-palette-g-6 u-text-white"><strong>Palette-g-6</strong><br /><small>config('colors.palette-g-6')</small></div>
  * 	<div class="u-w-full u-px-4 u-py-2 u-text-center u-bg-palette-g-7 u-text-white"><strong>Palette-g-7</strong><br /><small>config('colors.palette-g-7')</small></div>
  * </div>
  * @hideCode
