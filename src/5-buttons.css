@@ -1,0 +1,182 @@
+/**
+ * Buttons
+ *
+ * @section
+ */
+
+/**
+ * Default buttons
+ *
+ * @section
+ * @sectionof Buttons
+ * @example
+ * <div class="u-p-4">
+ * <button class="btn">Button</button>
+ * <button class="btn is-selected">Button selected</button>
+ * <button class="btn is-disabled">Button disabled</button>
+ * </div>
+ * @code
+ * <button class="btn">Button</button>
+ * <button class="btn is-selected">Button selected</button>
+ * <button class="btn is-disabled">Button disabled</button>
+ */
+.btn {
+	transition: .2s;
+	text-decoration: none;
+	@apply .u-inline-block;
+	@apply .u-bg-transparent .u-leading-normal .u-rounded .u-border-2;
+	@apply .u-px-3 .u-py-1;
+	color: inherit;
+	border-color: inherit;
+}
+.btn:hover,
+.btn:focus,
+.btn.is-selected {
+	@apply .u-border-transparent;
+}
+.btn.is-disabled {
+	@apply .u-border-transparent .u-text-grey .u-cursor-not-allowed;
+}
+
+/**
+ * Alternative buttons
+ *
+ * @section
+ * @sectionof Buttons
+ * @example
+ * <div class="u-p-4">
+ * <button class="btn btn--alt">Button</button>
+ * <button class="btn btn--alt is-selected">Button selected</button>
+ * <button class="btn btn--alt is-disabled">Button disabled</button>
+ * </div>
+ * @code
+ * <button class="btn btn--alt">Button</button>
+ * <button class="btn btn--alt is-selected">Button selected</button>
+ * <button class="btn btn--alt is-disabled">Button disabled</button>
+ */
+.btn--alt {
+	@apply .u-border-primary .u-text-white .u-bg-primary;
+}
+.btn--alt:hover,
+.btn--alt:focus,
+.btn--alt.is-selected {
+	@apply .u-bg-primary-dark;
+}
+.btn--alt.is-disabled {
+	@apply .u-border-grey .u-bg-grey .u-text-white;
+}
+
+/**
+ * Success buttons
+ *
+ * @section
+ * @sectionof Buttons
+ * @example
+ * <div class="u-p-4">
+ * <button class="btn btn--success">Button</button>
+ * <button class="btn btn--success is-selected">Button selected</button>
+ * <button class="btn btn--success is-disabled">Button disabled</button>
+ * </div>
+ * @code
+ * <button class="btn btn--success">Button</button>
+ * <button class="btn btn--success is-selected">Button selected</button>
+ * <button class="btn btn--success is-disabled">Button disabled</button>
+ */
+.btn--success {
+	@apply .u-border-success .u-text-success;
+}
+.btn--success:hover,
+.btn--success:focus,
+.btn--success.is-selected {
+	@apply .u-bg-success .u-text-white;
+}
+.btn--success.is-disabled {
+	@apply .u-border-grey .u-bg-transparent .u-text-grey;
+}
+
+/**
+ * Danger buttons
+ *
+ * @section
+ * @sectionof Buttons
+ * @example
+ * <div class="u-p-4">
+ * <button class="btn btn--danger">Button</button>
+ * <button class="btn btn--danger is-selected">Button selected</button>
+ * <button class="btn btn--danger is-disabled">Button disabled</button>
+ * </div>
+ * @code
+ * <button class="btn btn--danger">Button</button>
+ * <button class="btn btn--danger is-selected">Button selected</button>
+ * <button class="btn btn--danger is-disabled">Button disabled</button>
+ */
+.btn--danger {
+	@apply .u-border-danger .u-text-danger;
+}
+.btn--danger:hover,
+.btn--danger:focus,
+.btn--danger.is-selected {
+	@apply .u-bg-danger .u-text-white;
+}
+.btn--danger.is-disabled {
+	@apply .u-border-grey .u-bg-transparent .u-text-grey;
+}
+
+/**
+ * Simple buttons
+ *
+ * @section
+ * @sectionof Buttons
+ * @example
+ * <div class="u-p-4">
+ * <button class="btn btn--simple">Button</button>
+ * <button class="btn btn--simple is-selected">Button selected</button>
+ * <button class="btn btn--simple is-disabled">Button disabled</button>
+ * </div>
+ * @code
+ * <button class="btn btn--simple">Button</button>
+ * <button class="btn btn--simple is-selected">Button selected</button>
+ * <button class="btn btn--simple is-disabled">Button disabled</button>
+ */
+.btn--simple {
+	@apply .u-border-transparent;
+}
+.btn--simple:hover,
+.btn--simple:focus,
+.btn--simple.is-selected {
+	@apply .u-bg-black .u-border-black .u-text-white;
+}
+.btn--simple.is-disabled {
+	@apply .u-bg-transparent .u-border-transparent .u-text-grey;
+}
+
+/**
+ * Icon buttons
+ *
+ * @section
+ * @sectionof Buttons
+ * @example
+ * <div class="u-p-4">
+ * <button class="btn btn--icon"><i class="icon icon--user"></i></button>
+ * <button class="btn btn--icon is-selected"><i class="icon icon--user"></i></button>
+ * <button class="btn btn--icon is-disabled"><i class="icon icon--user"></i></button>
+ * </div>
+ * @code
+ * <button class="btn btn--icon"><i class="icon icon--user"></i></button>
+ * <button class="btn btn--icon is-selected"><i class="icon icon--user"></i></button>
+ * <button class="btn btn--icon is-disabled"><i class="icon icon--user"></i></button>
+ */
+.btn--icon {
+	@apply .u-rounded-full .u-text-center;
+	@apply .u-w-12 .u-h-12;
+	@apply .u-p-0;
+	/*line-height: 3rem;*/
+}
+.btn--icon:hover,
+.btn--icon:focus,
+.btn--icon.is-selected {
+	@apply .u-bg-black .u-border-black .u-text-white;
+}
+.btn--icon.is-disabled {
+	@apply .u-bg-transparent .u-border-transparent .u-text-grey;
+}

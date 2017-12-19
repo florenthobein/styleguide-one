@@ -1,0 +1,22 @@
+/**
+ * Navigation
+ *
+ * Work in progress
+ *
+ * @section
+ * @sectionof Components
+ */
+
+.nav { }
+.nav-elt {
+	@apply .u-float-left .u-list-reset .u-ml-3;
+}
+.nav .nav-elt:first-child {
+	@apply .u-ml-0;
+}
+.nav-elt--right {
+	@apply .u-float-right .u-ml-0 .u-mr-3;
+}
+.nav .nav-elt--right:first-child {
+	@apply .u-mr-0;
+}

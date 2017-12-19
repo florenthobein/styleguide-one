@@ -1,0 +1,18 @@
+{
+  "name": "styleguide-one",
+  "version": "0.1.0",
+  "description": "A styleguide driven, utility-first approach to building a personalized css library using TailwindCSS and LivingCSS",
+  "main": "index.js",
+  "author": "Florent Hobein <florent.hobein@gmail.com>",
+  "homepage": "https://github.com/florenthobein/styleguide-one",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-livingcss": "^2.2.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-replace": "^0.6.1",
+    "tailwindcss": "^0.4.0"
+  }
+}

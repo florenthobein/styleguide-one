@@ -1,0 +1,82 @@
+/**
+ * General
+ *
+ * @section
+ */
+
+/**
+ * Naming convention
+ *
+ * - Utility classes: **.u-class**
+ * - Components: **.component**, **.otherComponent**, **.component-subcomponent**
+ * - Variations: **.component--variation**, **.component--otherVariation**
+ * - States: **.component.is-state**, **.component.has-state**
+ * - Responsive: **.breakpoint_class**, **.breakpoint_u-class**
+ * - Javascript only: **.js-javascriptOnly**
+ *
+ * *Note: it is possible for components to solely exist in a variegated form.*
+ *
+ * @section
+ * @sectionof General
+ */
+
+/**
+ * Responsive
+ *
+ * Mobile first approach: the smaller breakpoints impact the bigger sizes
+ * - **sm**: config('screens.sm')
+ * - **md**: config('screens.md')
+ * - **lg**: config('screens.lg')
+ * - **xl**: config('screens.xl')
+ *
+ * @section
+ * @sectionof General
+ */
+
+@tailwind preflight;
+
+@tailwind utilities;
+
+::root {
+  /*--color-palette-g-1: config('colors.palette-g-1');
+  --color-palette-g-2: config('colors.palette-g-2');
+  --color-palette-g-3: config('colors.palette-g-3');
+  --color-palette-g-4: config('colors.palette-g-4');
+  --color-palette-g-5: config('colors.palette-g-5');
+  --color-palette-g-6: config('colors.palette-g-6');
+	--color-palette-g-7: config('colors.palette-g-7');
+	--color-palette1: config('colors.palette1');
+	--color-palette1-1: config('colors.palette1-1');
+	--color-palette1-2: config('colors.palette1-2');
+	--color-palette2: config('colors.palette2');
+	--color-palette2-1: config('colors.palette2-1');
+	--color-palette2-2: config('colors.palette2-2');
+  --color-palette3: config('colors.palette3');
+  --color-palette3-1: config('colors.palette3-1');
+  --color-palette3-2: config('colors.palette3-2');
+  --color-palette4: config('colors.palette4');
+  --color-palette4-1: config('colors.palette4-1');
+  --color-palette4-2: config('colors.palette4-2');
+	--color-palette5: config('colors.palette5');
+	--color-palette5-1: config('colors.palette5-1');
+	--color-palette5-2: config('colors.palette5-2');
+	--color-primary: config('colors.primary');
+	--color-primary-light: config('colors.primary-light');
+	--color-primary-dark: config('colors.primary-dark');
+	--color-secondary: config('colors.secondary');
+	--color-secondary-light: config('colors.secondary-light');
+	--color-secondary-dark: config('colors.secondary-dark');
+	--color-tertiary: config('colors.tertiary');
+	--color-tertiary-light: config('colors.tertiary-light');
+	--color-tertiary-dark: config('colors.tertiary-dark');
+	--color-info: config('colors.info');
+	--color-info-dark: config('colors.info-dark');
+	--color-success: config('colors.success');
+	--color-success-dark: config('colors.success-dark');
+	--color-danger: config('colors.danger');
+	--color-danger-dark: config('colors.danger-dark');
+	--color-white: config('colors.white');
+	--color-grey: config('colors.grey');
+	--color-grey-light: config('colors.grey-light');
+	--color-black: config('colors.black');*/
+}

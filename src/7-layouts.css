@@ -1,0 +1,81 @@
+/**
+ * Layouts
+ *
+ * Organisation of space.
+ *
+ * @section
+ */
+
+/**
+ * Grid
+ *
+ * Simple grid system, using flexbox. Doesn't add any padding.
+ *
+ * @section
+ * @sectionof Layouts
+ * @code
+ * <div class="layout--grid">
+ * 	<div class="u-w-1/3"></div>
+ * 	<div class="u-w-1/3"></div>
+ * 	<div class="u-w-1/3"></div>
+ * </div>
+ * @example
+ * <div class="layout--grid">
+ * 	<div class="u-w-1/6"><div class="theme--primary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/6"><div class="theme--secondary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/6"><div class="theme--primary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/6"><div class="theme--secondary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/6"><div class="theme--primary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/6"><div class="theme--secondary u-text-center u-m-1 u-py-2">col</div></div>
+ * </div>
+ * <div class="layout--grid">
+ * 	<div class="u-w-1/3"><div class="theme--primary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/3"><div class="theme--secondary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/3"><div class="theme--primary u-text-center u-m-1 u-py-2">col</div></div>
+ * </div>
+ * <div class="layout--grid">
+ * 	<div class="u-w-1/2"><div class="theme--primary u-text-center u-m-1 u-py-2">col</div></div>
+ * 	<div class="u-w-1/2"><div class="theme--secondary u-text-center u-m-1 u-py-2">col</div></div>
+ * </div>
+ */
+.layout--grid {
+	@apply .u-flex .u-flex-wrap;
+}
+
+/**
+ * Document
+ *
+ * Organize a text document, with standard formatting.
+ *
+ * @section
+ * @sectionof Layouts
+ * @code
+ * <div class="layout--document">
+ *  <h1>Titre de document</h1>
+ *  <h2>Sous-titre</h2>
+ *  <p>Dead drugs fetishism engine augmented reality Tokyo lights car. Sunglasses film...</p>
+ *  <p>Wonton soup table Legba vinyl urban denim Kowloon...</p>
+ * </div>
+ * @example
+ * <div class="layout--document">
+ * 	<h1>Titre de document</h1>
+ * 	<h2>Sous-titre</h2>
+ * 	<p>Dead drugs fetishism engine augmented reality Tokyo lights car. Sunglasses film man carbon claymore mine car A.I. footage city. Neural drone savant skyscraper motion wristwatch euro-pop plastic sensory. Table 3D-printed jeans tube rain-space smart-semiotics pistol nodality wonton soup dome rebar.</p>
+ * 	<p>Wonton soup table Legba vinyl urban denim Kowloon systemic. Into sunglasses singularity systemic wristwatch urban dolphin. Fetishism office human DIY assassin numinous wristwatch cyber-girl modem. Math-film media sensory chrome advert numinous free-market silent papier-mache San Francisco range-rover tower military-grade crypto. Beef noodles tank-traps physical tube convenience store jeans wonton soup apophenia. Engine shrine disposable woman cartel car artisanal rifle math-youtube A.I. 3D-printed wonton soup tanto BASE jump Tokyo.</p>
+ * </div>
+ */
+.layout--document h1, .layout--document .h--1 { @apply .u-pt-6; }
+.layout--document h2, .layout--document .h--2 { @apply .u-pt-4; }
+.layout--document h3, .layout--document .h--3 { @apply .u-pt-3; }
+.layout--document h4, .layout--document .h--4 { @apply .u-pt-2; }
+.layout--document h5, .layout--document .h--5 { @apply .u-pt-1; }
+.layout--document h1, .layout--document .h--1,
+.layout--document h2, .layout--document .h--2,
+.layout--document h3, .layout--document .h--3,
+.layout--document h4, .layout--document .h--4,
+.layout--document h5, .layout--document .h--5,
+.layout--document p, .layout--document .p,
+.layout--document ul, .layout--document .ul,
+.layout--document ol, .layout--document .ol {
+	@apply .u-pb-4;
+}

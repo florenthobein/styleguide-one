@@ -1,0 +1,217 @@
+/**
+ * Themes
+ *
+ * Themes are global color combinations that fit well together. They are meant to modify the behavior of multiple elements, color-wise.
+ *
+ * @section
+ */
+
+.theme--primary a, .theme--primary .a,
+.theme--secondary a, .theme--secondary .a,
+.theme--tertiary a, .theme--tertiary .a,
+.theme--white a, .theme--white .a,
+.theme--grey a, .theme--grey .a,
+.theme--black a, .theme--black .a {
+  border-color: inherit;
+}
+
+.theme--primary a:hover, .theme--primary a:focus, .theme--primary .a:hover, .theme--primary .a:focus,
+.theme--secondary a:hover, .theme--secondary a:focus, .theme--secondary .a:hover, .theme--secondary .a:focus,
+.theme--tertiary a:hover, .theme--tertiary a:focus, .theme--tertiary .a:hover, .theme--tertiary .a:focus,
+.theme--white a:hover, .theme--white a:focus, .theme--white .a:hover, .theme--white .a:focus,
+.theme--grey a:hover, .theme--grey a:focus, .theme--grey .a:hover, .theme--grey .a:focus,
+.theme--black a:hover, .theme--black a:focus, .theme--black .a:hover, .theme--black .a:focus {
+  @apply .u-border-black;
+}
+
+/**
+ * Theme primary
+ *
+ * @section
+ * @sectionof Themes
+ * @example
+ * <div class="theme--primary layout--document u-px-6 u-py-2">
+ * 	<h3 class="u-text-center">Theme primary</h3>
+ * 	<p>Tattoo savant silent construct franchise shanty town garage. Weathered geodesic girl warehouse <a href>youtube industrial</a> grade vinyl math-smart-cardboard stimulate decay artisanal. Shanty town tank-traps urban city BASE jump advert denim post. Vehicle refrigerator neon papier-mache city RAF bridge meta.</p>
+ * 	<p class="u-text-center">
+ * 		<button class="btn">Read more</button>
+ * 		<button class="btn btn--alt">Read less</button>
+ * 		<button class="btn btn--simple">Read nothing</button>
+ * 	</p>
+ * </div>
+ * @code
+ * <div class="theme--primary"></div>
+ */
+.theme--primary {
+	@apply .u-bg-primary .u-text-white;
+}
+.theme--primary a, .theme--primary .a {
+  @apply .u-bg-palette1 .u-text-white .u-border-transparent .u-px-1;
+}
+.theme--primary .btn {
+	@apply .u-border-white .u-text-white;
+}
+.theme--primary .btn--alt {
+	@apply .u-bg-palette1 .u-border-palette1 .u-text-white;
+}
+.theme--primary .btn--simple {
+	@apply .u-bg-transparent .u-border-transparent .u-text-white;
+}
+.theme--primary .btn:hover,
+.theme--primary .btn:focus,
+.theme--primary .btn.is-selected {
+	@apply .u-bg-black .u-border-black .u-text-white;
+}
+.theme--primary .btn.is-disabled {
+	@apply .u-bg-grey .u-border-grey .u-text-white;
+}
+
+/**
+ * Theme secondary
+ *
+ * @section
+ * @sectionof Themes
+ * @example
+ * <div class="theme--secondary layout--document u-px-6 u-py-2">
+ * 	<h3 class="u-text-center">Theme secondary</h3>
+ * 	<p>Shrine Legba denim girl shoes table long-chain hydrocarbons-ware Chiba. Systema disposable digital <a href>computer city kanji</a> meta. Bridge Tokyo sub-orbital Legba boat tanto woman table voodoo god face forwards vinyl physical courier. Augmented reality render-farm stimulate otaku crypto-rain artisanal silent.</p>
+ *  <p class="u-text-center">
+ *    <button class="btn">Read more</button>
+ *    <button class="btn btn--alt">Read less</button>
+ *    <button class="btn btn--simple">Read nothing</button>
+ *  </p>
+ * </div>
+ * @code
+ * <div class="theme--secondary"></div>
+ */
+.theme--secondary {
+  @apply .u-bg-secondary .u-text-white;
+}
+.theme--secondary a, .theme--secondary .a {
+  @apply .u-bg-palette4 .u-text-white .u-border-transparent .u-px-1;
+}
+.theme--secondary .btn {
+  @apply .u-border-white .u-text-white;
+}
+.theme--secondary .btn--alt {
+  @apply .u-bg-palette4 .u-border-palette4 .u-text-white;
+}
+.theme--secondary .btn--simple {
+  @apply .u-bg-transparent .u-border-transparent .u-text-white;
+}
+.theme--secondary .btn:hover,
+.theme--secondary .btn:focus,
+.theme--secondary .btn.is-selected {
+  @apply .u-bg-black .u-border-black .u-text-white;
+}
+.theme--secondary .btn.is-disabled {
+  @apply .u-bg-grey .u-border-grey .u-text-white;
+}
+
+/**
+ * Theme tertiary
+ *
+ * @section
+ * @sectionof Themes
+ * @example
+ * <div class="theme--tertiary layout--document u-px-6 u-py-2">
+ * 	<h3 class="u-text-center">Theme tertiary</h3>
+ * 	<p>Shrine Legba denim girl shoes table long-chain hydrocarbons-ware Chiba. Systema disposable digital <a href>computer city kanji</a> meta. Bridge Tokyo sub-orbital Legba boat tanto woman table voodoo god face forwards vinyl physical courier. Augmented reality render-farm stimulate otaku crypto-rain artisanal silent.</p>
+ *  <p class="u-text-center">
+ *    <button class="btn">Read more</button>
+ *    <button class="btn btn--alt">Read less</button>
+ *    <button class="btn btn--simple">Read nothing</button>
+ *  </p>
+ * </div>
+ * @code
+ * <div class="theme--tertiary"></div>
+ */
+.theme--tertiary {
+	@apply .u-bg-tertiary .u-text-white;
+}
+.theme--tertiary a, .theme--tertiary .a {
+  @apply .u-bg-palette4 .u-text-white .u-border-transparent .u-px-1;
+}
+.theme--tertiary .btn {
+  @apply .u-border-white .u-text-white;
+}
+.theme--tertiary .btn--alt {
+  @apply .u-bg-palette4 .u-border-palette4 .u-text-white;
+}
+.theme--tertiary .btn--simple {
+  @apply .u-bg-transparent .u-border-transparent .u-text-white;
+}
+.theme--tertiary .btn:hover,
+.theme--tertiary .btn:focus,
+.theme--tertiary .btn.is-selected {
+  @apply .u-bg-black .u-border-black .u-text-white;
+}
+.theme--tertiary .btn.is-disabled {
+  @apply .u-bg-grey .u-border-grey .u-text-white;
+}
+
+/**
+ * Theme white
+ *
+ * @section
+ * @sectionof Themes
+ * @example
+ * <div class="theme--white layout--document u-px-6 u-py-2">
+ * 	<h3 class="u-text-center">Theme white</h3>
+ * 	<p>Tokyo papier-mache city dissident dolphin media warehouse A.I.. Realism warehouse neon weathered <a href>refrigerator numinous</a> tiger-team sprawl Shibuya dolphin Legba BASE jump systema post. Tiger-team sensory vinyl apophenia pistol otaku bomb bridge tanto geodesic. Chrome cardboard hotdog courier bomb face.</p>
+ *  <p class="u-text-center">
+ *    <button class="btn">Read more</button>
+ *    <button class="btn btn--alt">Read less</button>
+ *    <button class="btn btn--simple">Read nothing</button>
+ *  </p>
+ * </div>
+ * @code
+ * <div class="theme--white"></div>
+ */
+.theme--white {
+	@apply .u-bg-white .u-text-black;
+}
+
+/**
+ * Theme grey
+ *
+ * @section
+ * @sectionof Themes
+ * @example
+ * <div class="theme--grey layout--document u-px-6 u-py-2">
+ * 	<h3 class="u-text-center">Theme grey</h3>
+ * 	<p>Render-farm Chiba sign dissident warehouse concrete cardboard uplink tattoo decay sentient 8-bit. <a href>RAF A.I. sprawl city</a> nodality geodesic into courier human crypto-military-grade franchise towards. Monofilament nano-saturation point chrome towards RAF lights-space carbon. Advert stimulate vinyl towards sensory franchise network.</p>
+ *  <p class="u-text-center">
+ *    <button class="btn">Read more</button>
+ *    <button class="btn btn--alt">Read less</button>
+ *    <button class="btn btn--simple">Read nothing</button>
+ *  </p>
+ * </div>
+ * @code
+ * <div class="theme--grey"></div>
+ */
+.theme--grey {
+	@apply .u-bg-palette-g-5 .u-text-white;
+}
+
+/**
+ * Theme black
+ *
+ * @section
+ * @sectionof Themes
+ * @example
+ * <div class="theme--black layout--document u-px-6 u-py-2">
+ * 	<h3 class="u-text-center">Theme black</h3>
+ * 	<p>Render-farm Chiba sign dissident warehouse concrete cardboard uplink tattoo decay sentient 8-bit. <a href>RAF A.I. sprawl city</a> nodality geodesic into courier human crypto-military-grade franchise towards. Monofilament nano-saturation point chrome towards RAF lights-space carbon. Advert stimulate vinyl towards sensory franchise network.</p>
+ *  <p class="u-text-center">
+ *    <button class="btn">Read more</button>
+ *    <button class="btn btn--alt">Read less</button>
+ *    <button class="btn btn--simple">Read nothing</button>
+ *  </p>
+ * </div>
+ * @code
+ * <div class="theme--black"></div>
+ */
+.theme--black {
+	@apply .u-bg-black .u-text-white;
+}

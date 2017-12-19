@@ -1,0 +1,14 @@
+/**
+ * Card
+ *
+ * @section
+ * @sectionof Components
+ * @example
+ * <div class="card u-p-4">A card</div>
+ * @code
+ * <div class="card">A card</div>
+ */
+
+.card {
+	@apply .theme--white .u-rounded-lg .u-shadow;
+}

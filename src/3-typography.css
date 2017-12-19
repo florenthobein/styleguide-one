@@ -1,0 +1,122 @@
+/**
+ * Typography
+ *
+ * Standardize the use of text.
+ *
+ * @section
+ */
+
+/* Font families */
+/* Font sizes */
+/* Font weights */
+/* Line heights */
+
+body {
+	 @apply .u-font-body;
+}
+
+/**
+ * Font families
+ *
+ * @section
+ * @sectionof Typography
+ * @example
+ * <div class="layout--document">
+ *  <h3>Headers use the font config('fonts.headings[0]')</h3>
+ *  <p>Whereas the rest of the body use the font config('fonts.body[0]')</p>
+ * </div>
+ * @hideCode
+ */
+
+/**
+ * Headings
+ *
+ * @section
+ * @sectionof Typography
+ * @example
+ * <div class="layout--document">
+ * 	<h1>Placeholder text sure is a nice concept</h1>
+ * 	<div class="h--2">Placeholder text sure is a nice concept</div>
+ * 	<p class="h--3">Placeholder text sure is a nice concept</p>
+ * 	<h1 class="h--4">Placeholder text sure is a nice concept</h1>
+ * 	<h5>Placeholder text sure is a nice concept</h5>
+ * </div>
+ * @code
+ * <h1>Placeholder text sure is a nice concept</h1>
+ * <div class="h--2">Placeholder text sure is a nice concept</div>
+ * <p class="h--3">Placeholder text sure is a nice concept</p>
+ * <h1 class="h--4">Placeholder text sure is a nice concept</h1>
+ * <h5>Placeholder text sure is a nice concept</h5>
+ */
+h1, .h--1 {
+	@apply .u-text-3xl .u-font-bold .u-font-headings;
+}
+h2, .h--2 {
+	@apply .u-text-2xl .u-font-semibold .u-font-headings;
+}
+h3, .h--3 {
+	@apply .u-text-xl .u-font-medium .u-font-headings;
+}
+h4, .h--4 {
+	@apply .u-text-lg .u-font-normal .u-font-headings;
+}
+h5, .h--5 {
+	@apply .u-text-base .u-font-light .u-font-headings;
+}
+
+/**
+ * Paragraphs
+ *
+ * @section
+ * @sectionof Typography
+ * @example
+ * <div class="layout--document">
+ * 	<p>In computer programming, a placeholder is a <strong>character, word, or string</strong> of characters that may be used to take up space until such a time that the <em>space is needed</em>.</p>
+ * 	<div class="p">For example, <small>a programmer may know that she needs</small> a certain number of values or variables, but doesn't yet know what to input. She can use a placeholder as a temporary solution until a proper value or variable can be assigned.</div>
+ * </div>
+ * @code
+ * <p>In computer programming, a placeholder is...</p>
+ * <div class="p">For example, a programmer...</div>
+ */
+p, .p {
+	@apply .u-leading-normal;
+}
+a, .a {
+  transition: 200ms;
+	color: inherit;
+	text-decoration: none;
+	@apply .u-border-b-2 .u-border-transparent;
+}
+a:focus, .a:focus,
+a:hover, .a:hover {
+	border-color: inherit;
+}
+
+/**
+ * Lists
+ *
+ * @section
+ * @sectionof Typography
+ * @example
+ * <div class="layout--grid">
+ * 	<div class="w-1/2 layout--document"><ul><li>Liste 1</li><li>Liste 2</li><li>Liste 3</li><li>Liste 4</li></ul></div>
+ * 	<div class="w-1/2 layout--document"><ul class="ol"><li>Liste 1</li><li>Liste 2</li><li>Liste 3</li><li>Liste 4</li></ul></div>
+ * </div>
+ * @code
+ * <ul>
+ * 	<li>Liste 1</li>
+ * 	...
+ * </ul>
+ * <ul class="ol">
+ * 	<li>Liste 1</li>
+ * 	...
+ * </ul>
+ */
+ul, .ul {
+	@apply .u-leading-normal;
+	list-style-type: disc;
+}
+ol, .ol {
+	@apply .u-leading-normal;
+	list-style-type: decimal;
+}
