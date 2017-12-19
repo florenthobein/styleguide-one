@@ -44,7 +44,7 @@ gulp styleguide
 ```
 
 
-### Developpment mode
+### Development mode
 
 Any modification to a file in `css/` or to the `tailwind.js` config file will regenerate your css library and update the styleguide.
 ```shell
