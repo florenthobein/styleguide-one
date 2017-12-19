@@ -5,38 +5,47 @@ Styleguide One
 
 ⚡️ **WORK IN PROGRESS** ⚡️ 
 
-Configure you main variables in `styleguide-one.js`, modify the css files in `src/` and generate your unified css library.
+Configure your main variables in `tailwind.js`, modify the css files in `src/` and generate your unified css library.
 
 ## Usage
 
 ### Installation
 
-You should first make sure that you have yarn and gulp install globally.
+You should first make sure that **yarn** and **gulp** are globally installed on your system.
 
 ```shell
 yarn install
 ```
 
 
-### Generation of the css
+### Generation of the library
 
-Will generate your css library as `build/lib.css`.
 ```shell
+# will generate your css library as `build/lib.css`
 gulp css
 ```
 
 
 ### Generation of the styleguide
 
-Will generate your web styleguide in `styleguide/index.html`.
 ```shell
+# you can then access your web styleguide at `docs/index.html`
 gulp styleguide
 ```
 
 
 ### Developpment mode
 
-Any modification to a file in `src/` or to the `tailwind.js` config file will regenerate the CSS and update the styleguide.
+Any modification to a file in `src/` or to the `tailwind.js` config file will regenerate your css library and update the styleguide.
 ```shell
 gulp watch
 ```
+
+## Credits
+
+- [Github of TailwindCSS](https://github.com/tailwindcss/tailwindcss)
+- [Github of LivingCSS](https://github.com/straker/livingcss)
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)

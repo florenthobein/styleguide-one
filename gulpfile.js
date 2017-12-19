@@ -12,14 +12,14 @@ gulp.task('css', function () {
 			require('autoprefixer'),
 		]))
 		.pipe(gulp.dest('build/'))
-		.pipe(gulp.dest('styleguide/'));
+		.pipe(gulp.dest('docs/'));
 });
 
 gulp.task('styleguide', ['css'], function () {
 	var livingcss = require('gulp-livingcss');
-	return gulp.src('styleguide/lib.css')
-		.pipe(livingcss('styleguide'))
-		.pipe(gulp.dest('styleguide'));
+	return gulp.src('docs/lib.css')
+		.pipe(livingcss('docs'))
+		.pipe(gulp.dest('docs'));
 });
 
 gulp.task('watch', function() {
